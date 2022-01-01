@@ -1,1 +1,17 @@
 @use 'custom';
+
+//import the components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+//import the sections
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/technologies';
+@use 'sections/portfolio';
+@use 'sections/cv';
+@use 'sections/FAQ';
+@use 'sections/enquire';
+@use 'sections/footer';
