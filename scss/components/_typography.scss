@@ -1,0 +1,31 @@
+@use '../custom' as *;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 300;
+}
+
+.display-2 {
+
+    &--intro {
+        text-transform: uppercase;
+        font-weight: 500;
+        display: inline-block;
+    }
+    
+    &--description {
+        font-size: 50%;
+        font-weight: 300;
+        display: block;
+    }
+    
+    &--added-description {
+        font-size: 25%;
+        color: $gray-400;
+        display: block;
+    }
+    
+}

@@ -11118,5 +11118,94 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
+  font-weight: 500;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+  color: #9a1750;
+}
+.btn-rounded span {
+  position: absolute;
+  background-color: #ee4c7c;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, rgba(238, 76, 124, 0.95), rgba(154, 23, 80, 0.95));
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 300;
+}
+
+.display-2--intro {
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.display-2--description {
+  font-size: 50%;
+  font-weight: 300;
+  display: block;
+}
+.display-2--added-description {
+  font-size: 25%;
+  color: #ced4da;
+  display: block;
+}
+
+.menu {
+  background: linear-gradient(to right, rgba(238, 76, 124, 0.95), rgba(154, 23, 80, 0.95));
+}
+.menu .navbar-brand {
+  text-transform: uppercase;
+}
+.menu li {
+  padding: 0 0.7em;
+}
+.menu a {
+  text-transform: capitalize;
+}
+.menu .nav-link {
+  color: #fff !important;
+}
+.menu .dropdown-item {
+  color: #000;
+}
+
+.intro-section {
+  background: linear-gradient(to right, rgba(238, 76, 124, 0.95), rgba(154, 23, 80, 0.95));
+  padding: 5rem 0 0 0;
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767.98px) {
+  .intro-section #intro {
+    padding: 0 3.5rem;
+  }
+  .intro-section img {
+    max-height: 50vh;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

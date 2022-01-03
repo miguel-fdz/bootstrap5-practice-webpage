@@ -1,0 +1,24 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    @include gradient;
+    
+    .navbar-brand {
+        text-transform: uppercase;
+    }
+
+    li {
+        padding: 0 0.7em;
+    }
+    a {
+        text-transform: capitalize;
+    }
+
+    .nav-link {
+        color: $white !important;
+    }
+    .dropdown-item {
+        color: $black;
+    }
+}
