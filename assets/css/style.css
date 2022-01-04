@@ -11208,4 +11208,20 @@ body {
   }
 }
 
+.tech-section {
+  background-color: #343a40;
+}
+.tech-section h1 {
+  color: #6c757d;
+}
+.tech-section i {
+  color: #6c757d;
+  font-size: 10rem;
+}
+
+#pixel-waves {
+  width: 100%;
+  max-height: 35rem;
+}
+
 /*# sourceMappingURL=style.css.map */
